@@ -30,5 +30,7 @@ pip install -r requirements.txt
 
 Add your environment variables `DB_USERNAME` and `DB_PASSWORD`
 
-```$env:DB_USERNAME="parking"
-$env:DB_PASSWORD="admin"```
+```
+$env:DB_USERNAME="parking"
+$env:DB_PASSWORD="admin"
+```
