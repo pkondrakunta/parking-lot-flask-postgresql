@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Parking Spaces {% endblock %}</h1>
+    {% for space in spaces %}
+        <div class='book'>
+            <h3>#{{ space[0] }} - {{ space[1] }} is {{ space[2] }}</h3>
+        </div>
+    {% endfor %}
+{% endblock %}
